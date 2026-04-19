@@ -1,0 +1,6 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "amazon_transfer_family": "https://aws.amazon.com/amazon-transfer-family/vocab#"
+  }
+}

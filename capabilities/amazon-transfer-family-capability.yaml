@@ -1,0 +1,7 @@
+id: amazon-transfer-family-capability
+name: Amazon Transfer Family Capability
+description: Workflow-oriented capability for Amazon Transfer Family
+tags:
+- AWS
+consumes:
+- ref: capabilities/shared/amazon-transfer-family-shared.yaml
