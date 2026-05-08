@@ -32,6 +32,8 @@ apis:
   - File Transfer
   - SFTP
   properties:
+  - url: openapi/amazon-transfer-family-openapi.yml
+    type: OpenAPI
   - type: Documentation
     url: https://docs.aws.amazon.com/transfer/latest/userguide/
   - type: APIReference
