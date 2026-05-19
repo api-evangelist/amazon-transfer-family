@@ -1,0 +1,3016 @@
+naftiko: 1.0.0-alpha2
+info:
+  label: Amazon Transfer Family
+  description: 'Amazon Transfer Family. 71 operations. Lead operation: CreateAccess. Self-contained Naftiko capability covering
+    one Amazon Transfer Family business surface.'
+  tags:
+  - Amazon Transfer Family
+  created: '2026-05-19'
+  modified: '2026-05-19'
+binds:
+- namespace: env
+  keys:
+    AMAZON_TRANSFER_FAMILY_API_KEY: AMAZON_TRANSFER_FAMILY_API_KEY
+capability:
+  consumes:
+  - type: http
+    namespace: amazon-transfer-family
+    baseUri: https://transfer.amazonaws.com
+    description: Amazon Transfer Family business capability. Self-contained, no shared references.
+    resources:
+    - name: CreateAccess
+      path: /CreateAccess
+      operations:
+      - name: createaccess
+        method: POST
+        description: CreateAccess
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: CreateAgreement
+      path: /CreateAgreement
+      operations:
+      - name: createagreement
+        method: POST
+        description: CreateAgreement
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: CreateConnector
+      path: /CreateConnector
+      operations:
+      - name: createconnector
+        method: POST
+        description: CreateConnector
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: CreateProfile
+      path: /CreateProfile
+      operations:
+      - name: createprofile
+        method: POST
+        description: CreateProfile
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: CreateServer
+      path: /CreateServer
+      operations:
+      - name: createserver
+        method: POST
+        description: CreateServer
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: CreateUser
+      path: /CreateUser
+      operations:
+      - name: createuser
+        method: POST
+        description: CreateUser
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: CreateWebApp
+      path: /CreateWebApp
+      operations:
+      - name: createwebapp
+        method: POST
+        description: CreateWebApp
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: CreateWorkflow
+      path: /CreateWorkflow
+      operations:
+      - name: createworkflow
+        method: POST
+        description: CreateWorkflow
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteAccess
+      path: /DeleteAccess
+      operations:
+      - name: deleteaccess
+        method: POST
+        description: DeleteAccess
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteAgreement
+      path: /DeleteAgreement
+      operations:
+      - name: deleteagreement
+        method: POST
+        description: DeleteAgreement
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteCertificate
+      path: /DeleteCertificate
+      operations:
+      - name: deletecertificate
+        method: POST
+        description: DeleteCertificate
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteConnector
+      path: /DeleteConnector
+      operations:
+      - name: deleteconnector
+        method: POST
+        description: DeleteConnector
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteHostKey
+      path: /DeleteHostKey
+      operations:
+      - name: deletehostkey
+        method: POST
+        description: DeleteHostKey
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteProfile
+      path: /DeleteProfile
+      operations:
+      - name: deleteprofile
+        method: POST
+        description: DeleteProfile
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteServer
+      path: /DeleteServer
+      operations:
+      - name: deleteserver
+        method: POST
+        description: DeleteServer
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteSshPublicKey
+      path: /DeleteSshPublicKey
+      operations:
+      - name: deletesshpublickey
+        method: POST
+        description: DeleteSshPublicKey
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteUser
+      path: /DeleteUser
+      operations:
+      - name: deleteuser
+        method: POST
+        description: DeleteUser
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteWebApp
+      path: /DeleteWebApp
+      operations:
+      - name: deletewebapp
+        method: POST
+        description: DeleteWebApp
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteWebAppCustomization
+      path: /DeleteWebAppCustomization
+      operations:
+      - name: deletewebappcustomization
+        method: POST
+        description: DeleteWebAppCustomization
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteWorkflow
+      path: /DeleteWorkflow
+      operations:
+      - name: deleteworkflow
+        method: POST
+        description: DeleteWorkflow
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeAccess
+      path: /DescribeAccess
+      operations:
+      - name: describeaccess
+        method: POST
+        description: DescribeAccess
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeAgreement
+      path: /DescribeAgreement
+      operations:
+      - name: describeagreement
+        method: POST
+        description: DescribeAgreement
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeCertificate
+      path: /DescribeCertificate
+      operations:
+      - name: describecertificate
+        method: POST
+        description: DescribeCertificate
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeConnector
+      path: /DescribeConnector
+      operations:
+      - name: describeconnector
+        method: POST
+        description: DescribeConnector
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeExecution
+      path: /DescribeExecution
+      operations:
+      - name: describeexecution
+        method: POST
+        description: DescribeExecution
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeHostKey
+      path: /DescribeHostKey
+      operations:
+      - name: describehostkey
+        method: POST
+        description: DescribeHostKey
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeProfile
+      path: /DescribeProfile
+      operations:
+      - name: describeprofile
+        method: POST
+        description: DescribeProfile
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeSecurityPolicy
+      path: /DescribeSecurityPolicy
+      operations:
+      - name: describesecuritypolicy
+        method: POST
+        description: DescribeSecurityPolicy
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeServer
+      path: /DescribeServer
+      operations:
+      - name: describeserver
+        method: POST
+        description: DescribeServer
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeUser
+      path: /DescribeUser
+      operations:
+      - name: describeuser
+        method: POST
+        description: DescribeUser
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeWebApp
+      path: /DescribeWebApp
+      operations:
+      - name: describewebapp
+        method: POST
+        description: DescribeWebApp
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeWebAppCustomization
+      path: /DescribeWebAppCustomization
+      operations:
+      - name: describewebappcustomization
+        method: POST
+        description: DescribeWebAppCustomization
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeWorkflow
+      path: /DescribeWorkflow
+      operations:
+      - name: describeworkflow
+        method: POST
+        description: DescribeWorkflow
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ImportCertificate
+      path: /ImportCertificate
+      operations:
+      - name: importcertificate
+        method: POST
+        description: ImportCertificate
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ImportHostKey
+      path: /ImportHostKey
+      operations:
+      - name: importhostkey
+        method: POST
+        description: ImportHostKey
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ImportSshPublicKey
+      path: /ImportSshPublicKey
+      operations:
+      - name: importsshpublickey
+        method: POST
+        description: ImportSshPublicKey
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListAccesses
+      path: /ListAccesses
+      operations:
+      - name: listaccesses
+        method: POST
+        description: ListAccesses
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListAgreements
+      path: /ListAgreements
+      operations:
+      - name: listagreements
+        method: POST
+        description: ListAgreements
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListCertificates
+      path: /ListCertificates
+      operations:
+      - name: listcertificates
+        method: POST
+        description: ListCertificates
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListConnectors
+      path: /ListConnectors
+      operations:
+      - name: listconnectors
+        method: POST
+        description: ListConnectors
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListExecutions
+      path: /ListExecutions
+      operations:
+      - name: listexecutions
+        method: POST
+        description: ListExecutions
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListFileTransferResults
+      path: /ListFileTransferResults
+      operations:
+      - name: listfiletransferresults
+        method: POST
+        description: ListFileTransferResults
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListHostKeys
+      path: /ListHostKeys
+      operations:
+      - name: listhostkeys
+        method: POST
+        description: ListHostKeys
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListProfiles
+      path: /ListProfiles
+      operations:
+      - name: listprofiles
+        method: POST
+        description: ListProfiles
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListSecurityPolicies
+      path: /ListSecurityPolicies
+      operations:
+      - name: listsecuritypolicies
+        method: POST
+        description: ListSecurityPolicies
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListServers
+      path: /ListServers
+      operations:
+      - name: listservers
+        method: POST
+        description: ListServers
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListTagsForResource
+      path: /ListTagsForResource
+      operations:
+      - name: listtagsforresource
+        method: POST
+        description: ListTagsForResource
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListUsers
+      path: /ListUsers
+      operations:
+      - name: listusers
+        method: POST
+        description: ListUsers
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListWebApps
+      path: /ListWebApps
+      operations:
+      - name: listwebapps
+        method: POST
+        description: ListWebApps
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListWorkflows
+      path: /ListWorkflows
+      operations:
+      - name: listworkflows
+        method: POST
+        description: ListWorkflows
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: SendWorkflowStepState
+      path: /SendWorkflowStepState
+      operations:
+      - name: sendworkflowstepstate
+        method: POST
+        description: SendWorkflowStepState
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: StartDirectoryListing
+      path: /StartDirectoryListing
+      operations:
+      - name: startdirectorylisting
+        method: POST
+        description: StartDirectoryListing
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: StartFileTransfer
+      path: /StartFileTransfer
+      operations:
+      - name: startfiletransfer
+        method: POST
+        description: StartFileTransfer
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: StartRemoteDelete
+      path: /StartRemoteDelete
+      operations:
+      - name: startremotedelete
+        method: POST
+        description: StartRemoteDelete
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: StartRemoteMove
+      path: /StartRemoteMove
+      operations:
+      - name: startremotemove
+        method: POST
+        description: StartRemoteMove
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: StartServer
+      path: /StartServer
+      operations:
+      - name: startserver
+        method: POST
+        description: StartServer
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: StopServer
+      path: /StopServer
+      operations:
+      - name: stopserver
+        method: POST
+        description: StopServer
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: TagResource
+      path: /TagResource
+      operations:
+      - name: tagresource
+        method: POST
+        description: TagResource
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: TestConnection
+      path: /TestConnection
+      operations:
+      - name: testconnection
+        method: POST
+        description: TestConnection
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: TestIdentityProvider
+      path: /TestIdentityProvider
+      operations:
+      - name: testidentityprovider
+        method: POST
+        description: TestIdentityProvider
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UntagResource
+      path: /UntagResource
+      operations:
+      - name: untagresource
+        method: POST
+        description: UntagResource
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UpdateAccess
+      path: /UpdateAccess
+      operations:
+      - name: updateaccess
+        method: POST
+        description: UpdateAccess
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UpdateAgreement
+      path: /UpdateAgreement
+      operations:
+      - name: updateagreement
+        method: POST
+        description: UpdateAgreement
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UpdateCertificate
+      path: /UpdateCertificate
+      operations:
+      - name: updatecertificate
+        method: POST
+        description: UpdateCertificate
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UpdateConnector
+      path: /UpdateConnector
+      operations:
+      - name: updateconnector
+        method: POST
+        description: UpdateConnector
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UpdateHostKey
+      path: /UpdateHostKey
+      operations:
+      - name: updatehostkey
+        method: POST
+        description: UpdateHostKey
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UpdateProfile
+      path: /UpdateProfile
+      operations:
+      - name: updateprofile
+        method: POST
+        description: UpdateProfile
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UpdateServer
+      path: /UpdateServer
+      operations:
+      - name: updateserver
+        method: POST
+        description: UpdateServer
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UpdateUser
+      path: /UpdateUser
+      operations:
+      - name: updateuser
+        method: POST
+        description: UpdateUser
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UpdateWebApp
+      path: /UpdateWebApp
+      operations:
+      - name: updatewebapp
+        method: POST
+        description: UpdateWebApp
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UpdateWebAppCustomization
+      path: /UpdateWebAppCustomization
+      operations:
+      - name: updatewebappcustomization
+        method: POST
+        description: UpdateWebAppCustomization
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+  exposes:
+  - type: rest
+    namespace: amazon-transfer-family-rest
+    port: 8080
+    description: REST adapter for Amazon Transfer Family. One Spectral-compliant resource per consumed operation, prefixed
+      with /v1.
+    resources:
+    - path: /v1/createaccess
+      name: createaccess
+      description: REST surface for CreateAccess.
+      operations:
+      - method: POST
+        name: createaccess
+        description: CreateAccess
+        call: amazon-transfer-family.createaccess
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/createagreement
+      name: createagreement
+      description: REST surface for CreateAgreement.
+      operations:
+      - method: POST
+        name: createagreement
+        description: CreateAgreement
+        call: amazon-transfer-family.createagreement
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/createconnector
+      name: createconnector
+      description: REST surface for CreateConnector.
+      operations:
+      - method: POST
+        name: createconnector
+        description: CreateConnector
+        call: amazon-transfer-family.createconnector
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/createprofile
+      name: createprofile
+      description: REST surface for CreateProfile.
+      operations:
+      - method: POST
+        name: createprofile
+        description: CreateProfile
+        call: amazon-transfer-family.createprofile
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/createserver
+      name: createserver
+      description: REST surface for CreateServer.
+      operations:
+      - method: POST
+        name: createserver
+        description: CreateServer
+        call: amazon-transfer-family.createserver
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/createuser
+      name: createuser
+      description: REST surface for CreateUser.
+      operations:
+      - method: POST
+        name: createuser
+        description: CreateUser
+        call: amazon-transfer-family.createuser
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/createwebapp
+      name: createwebapp
+      description: REST surface for CreateWebApp.
+      operations:
+      - method: POST
+        name: createwebapp
+        description: CreateWebApp
+        call: amazon-transfer-family.createwebapp
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/createworkflow
+      name: createworkflow
+      description: REST surface for CreateWorkflow.
+      operations:
+      - method: POST
+        name: createworkflow
+        description: CreateWorkflow
+        call: amazon-transfer-family.createworkflow
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deleteaccess
+      name: deleteaccess
+      description: REST surface for DeleteAccess.
+      operations:
+      - method: POST
+        name: deleteaccess
+        description: DeleteAccess
+        call: amazon-transfer-family.deleteaccess
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deleteagreement
+      name: deleteagreement
+      description: REST surface for DeleteAgreement.
+      operations:
+      - method: POST
+        name: deleteagreement
+        description: DeleteAgreement
+        call: amazon-transfer-family.deleteagreement
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deletecertificate
+      name: deletecertificate
+      description: REST surface for DeleteCertificate.
+      operations:
+      - method: POST
+        name: deletecertificate
+        description: DeleteCertificate
+        call: amazon-transfer-family.deletecertificate
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deleteconnector
+      name: deleteconnector
+      description: REST surface for DeleteConnector.
+      operations:
+      - method: POST
+        name: deleteconnector
+        description: DeleteConnector
+        call: amazon-transfer-family.deleteconnector
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deletehostkey
+      name: deletehostkey
+      description: REST surface for DeleteHostKey.
+      operations:
+      - method: POST
+        name: deletehostkey
+        description: DeleteHostKey
+        call: amazon-transfer-family.deletehostkey
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deleteprofile
+      name: deleteprofile
+      description: REST surface for DeleteProfile.
+      operations:
+      - method: POST
+        name: deleteprofile
+        description: DeleteProfile
+        call: amazon-transfer-family.deleteprofile
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deleteserver
+      name: deleteserver
+      description: REST surface for DeleteServer.
+      operations:
+      - method: POST
+        name: deleteserver
+        description: DeleteServer
+        call: amazon-transfer-family.deleteserver
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deletesshpublickey
+      name: deletesshpublickey
+      description: REST surface for DeleteSshPublicKey.
+      operations:
+      - method: POST
+        name: deletesshpublickey
+        description: DeleteSshPublicKey
+        call: amazon-transfer-family.deletesshpublickey
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deleteuser
+      name: deleteuser
+      description: REST surface for DeleteUser.
+      operations:
+      - method: POST
+        name: deleteuser
+        description: DeleteUser
+        call: amazon-transfer-family.deleteuser
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deletewebapp
+      name: deletewebapp
+      description: REST surface for DeleteWebApp.
+      operations:
+      - method: POST
+        name: deletewebapp
+        description: DeleteWebApp
+        call: amazon-transfer-family.deletewebapp
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deletewebappcustomization
+      name: deletewebappcustomization
+      description: REST surface for DeleteWebAppCustomization.
+      operations:
+      - method: POST
+        name: deletewebappcustomization
+        description: DeleteWebAppCustomization
+        call: amazon-transfer-family.deletewebappcustomization
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deleteworkflow
+      name: deleteworkflow
+      description: REST surface for DeleteWorkflow.
+      operations:
+      - method: POST
+        name: deleteworkflow
+        description: DeleteWorkflow
+        call: amazon-transfer-family.deleteworkflow
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describeaccess
+      name: describeaccess
+      description: REST surface for DescribeAccess.
+      operations:
+      - method: POST
+        name: describeaccess
+        description: DescribeAccess
+        call: amazon-transfer-family.describeaccess
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describeagreement
+      name: describeagreement
+      description: REST surface for DescribeAgreement.
+      operations:
+      - method: POST
+        name: describeagreement
+        description: DescribeAgreement
+        call: amazon-transfer-family.describeagreement
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describecertificate
+      name: describecertificate
+      description: REST surface for DescribeCertificate.
+      operations:
+      - method: POST
+        name: describecertificate
+        description: DescribeCertificate
+        call: amazon-transfer-family.describecertificate
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describeconnector
+      name: describeconnector
+      description: REST surface for DescribeConnector.
+      operations:
+      - method: POST
+        name: describeconnector
+        description: DescribeConnector
+        call: amazon-transfer-family.describeconnector
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describeexecution
+      name: describeexecution
+      description: REST surface for DescribeExecution.
+      operations:
+      - method: POST
+        name: describeexecution
+        description: DescribeExecution
+        call: amazon-transfer-family.describeexecution
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describehostkey
+      name: describehostkey
+      description: REST surface for DescribeHostKey.
+      operations:
+      - method: POST
+        name: describehostkey
+        description: DescribeHostKey
+        call: amazon-transfer-family.describehostkey
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describeprofile
+      name: describeprofile
+      description: REST surface for DescribeProfile.
+      operations:
+      - method: POST
+        name: describeprofile
+        description: DescribeProfile
+        call: amazon-transfer-family.describeprofile
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describesecuritypolicy
+      name: describesecuritypolicy
+      description: REST surface for DescribeSecurityPolicy.
+      operations:
+      - method: POST
+        name: describesecuritypolicy
+        description: DescribeSecurityPolicy
+        call: amazon-transfer-family.describesecuritypolicy
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describeserver
+      name: describeserver
+      description: REST surface for DescribeServer.
+      operations:
+      - method: POST
+        name: describeserver
+        description: DescribeServer
+        call: amazon-transfer-family.describeserver
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describeuser
+      name: describeuser
+      description: REST surface for DescribeUser.
+      operations:
+      - method: POST
+        name: describeuser
+        description: DescribeUser
+        call: amazon-transfer-family.describeuser
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describewebapp
+      name: describewebapp
+      description: REST surface for DescribeWebApp.
+      operations:
+      - method: POST
+        name: describewebapp
+        description: DescribeWebApp
+        call: amazon-transfer-family.describewebapp
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describewebappcustomization
+      name: describewebappcustomization
+      description: REST surface for DescribeWebAppCustomization.
+      operations:
+      - method: POST
+        name: describewebappcustomization
+        description: DescribeWebAppCustomization
+        call: amazon-transfer-family.describewebappcustomization
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describeworkflow
+      name: describeworkflow
+      description: REST surface for DescribeWorkflow.
+      operations:
+      - method: POST
+        name: describeworkflow
+        description: DescribeWorkflow
+        call: amazon-transfer-family.describeworkflow
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/importcertificate
+      name: importcertificate
+      description: REST surface for ImportCertificate.
+      operations:
+      - method: POST
+        name: importcertificate
+        description: ImportCertificate
+        call: amazon-transfer-family.importcertificate
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/importhostkey
+      name: importhostkey
+      description: REST surface for ImportHostKey.
+      operations:
+      - method: POST
+        name: importhostkey
+        description: ImportHostKey
+        call: amazon-transfer-family.importhostkey
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/importsshpublickey
+      name: importsshpublickey
+      description: REST surface for ImportSshPublicKey.
+      operations:
+      - method: POST
+        name: importsshpublickey
+        description: ImportSshPublicKey
+        call: amazon-transfer-family.importsshpublickey
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listaccesses
+      name: listaccesses
+      description: REST surface for ListAccesses.
+      operations:
+      - method: POST
+        name: listaccesses
+        description: ListAccesses
+        call: amazon-transfer-family.listaccesses
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listagreements
+      name: listagreements
+      description: REST surface for ListAgreements.
+      operations:
+      - method: POST
+        name: listagreements
+        description: ListAgreements
+        call: amazon-transfer-family.listagreements
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listcertificates
+      name: listcertificates
+      description: REST surface for ListCertificates.
+      operations:
+      - method: POST
+        name: listcertificates
+        description: ListCertificates
+        call: amazon-transfer-family.listcertificates
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listconnectors
+      name: listconnectors
+      description: REST surface for ListConnectors.
+      operations:
+      - method: POST
+        name: listconnectors
+        description: ListConnectors
+        call: amazon-transfer-family.listconnectors
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listexecutions
+      name: listexecutions
+      description: REST surface for ListExecutions.
+      operations:
+      - method: POST
+        name: listexecutions
+        description: ListExecutions
+        call: amazon-transfer-family.listexecutions
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listfiletransferresults
+      name: listfiletransferresults
+      description: REST surface for ListFileTransferResults.
+      operations:
+      - method: POST
+        name: listfiletransferresults
+        description: ListFileTransferResults
+        call: amazon-transfer-family.listfiletransferresults
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listhostkeys
+      name: listhostkeys
+      description: REST surface for ListHostKeys.
+      operations:
+      - method: POST
+        name: listhostkeys
+        description: ListHostKeys
+        call: amazon-transfer-family.listhostkeys
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listprofiles
+      name: listprofiles
+      description: REST surface for ListProfiles.
+      operations:
+      - method: POST
+        name: listprofiles
+        description: ListProfiles
+        call: amazon-transfer-family.listprofiles
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listsecuritypolicies
+      name: listsecuritypolicies
+      description: REST surface for ListSecurityPolicies.
+      operations:
+      - method: POST
+        name: listsecuritypolicies
+        description: ListSecurityPolicies
+        call: amazon-transfer-family.listsecuritypolicies
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listservers
+      name: listservers
+      description: REST surface for ListServers.
+      operations:
+      - method: POST
+        name: listservers
+        description: ListServers
+        call: amazon-transfer-family.listservers
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listtagsforresource
+      name: listtagsforresource
+      description: REST surface for ListTagsForResource.
+      operations:
+      - method: POST
+        name: listtagsforresource
+        description: ListTagsForResource
+        call: amazon-transfer-family.listtagsforresource
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listusers
+      name: listusers
+      description: REST surface for ListUsers.
+      operations:
+      - method: POST
+        name: listusers
+        description: ListUsers
+        call: amazon-transfer-family.listusers
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listwebapps
+      name: listwebapps
+      description: REST surface for ListWebApps.
+      operations:
+      - method: POST
+        name: listwebapps
+        description: ListWebApps
+        call: amazon-transfer-family.listwebapps
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listworkflows
+      name: listworkflows
+      description: REST surface for ListWorkflows.
+      operations:
+      - method: POST
+        name: listworkflows
+        description: ListWorkflows
+        call: amazon-transfer-family.listworkflows
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/sendworkflowstepstate
+      name: sendworkflowstepstate
+      description: REST surface for SendWorkflowStepState.
+      operations:
+      - method: POST
+        name: sendworkflowstepstate
+        description: SendWorkflowStepState
+        call: amazon-transfer-family.sendworkflowstepstate
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/startdirectorylisting
+      name: startdirectorylisting
+      description: REST surface for StartDirectoryListing.
+      operations:
+      - method: POST
+        name: startdirectorylisting
+        description: StartDirectoryListing
+        call: amazon-transfer-family.startdirectorylisting
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/startfiletransfer
+      name: startfiletransfer
+      description: REST surface for StartFileTransfer.
+      operations:
+      - method: POST
+        name: startfiletransfer
+        description: StartFileTransfer
+        call: amazon-transfer-family.startfiletransfer
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/startremotedelete
+      name: startremotedelete
+      description: REST surface for StartRemoteDelete.
+      operations:
+      - method: POST
+        name: startremotedelete
+        description: StartRemoteDelete
+        call: amazon-transfer-family.startremotedelete
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/startremotemove
+      name: startremotemove
+      description: REST surface for StartRemoteMove.
+      operations:
+      - method: POST
+        name: startremotemove
+        description: StartRemoteMove
+        call: amazon-transfer-family.startremotemove
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/startserver
+      name: startserver
+      description: REST surface for StartServer.
+      operations:
+      - method: POST
+        name: startserver
+        description: StartServer
+        call: amazon-transfer-family.startserver
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/stopserver
+      name: stopserver
+      description: REST surface for StopServer.
+      operations:
+      - method: POST
+        name: stopserver
+        description: StopServer
+        call: amazon-transfer-family.stopserver
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/tagresource
+      name: tagresource
+      description: REST surface for TagResource.
+      operations:
+      - method: POST
+        name: tagresource
+        description: TagResource
+        call: amazon-transfer-family.tagresource
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/testconnection
+      name: testconnection
+      description: REST surface for TestConnection.
+      operations:
+      - method: POST
+        name: testconnection
+        description: TestConnection
+        call: amazon-transfer-family.testconnection
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/testidentityprovider
+      name: testidentityprovider
+      description: REST surface for TestIdentityProvider.
+      operations:
+      - method: POST
+        name: testidentityprovider
+        description: TestIdentityProvider
+        call: amazon-transfer-family.testidentityprovider
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/untagresource
+      name: untagresource
+      description: REST surface for UntagResource.
+      operations:
+      - method: POST
+        name: untagresource
+        description: UntagResource
+        call: amazon-transfer-family.untagresource
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/updateaccess
+      name: updateaccess
+      description: REST surface for UpdateAccess.
+      operations:
+      - method: POST
+        name: updateaccess
+        description: UpdateAccess
+        call: amazon-transfer-family.updateaccess
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/updateagreement
+      name: updateagreement
+      description: REST surface for UpdateAgreement.
+      operations:
+      - method: POST
+        name: updateagreement
+        description: UpdateAgreement
+        call: amazon-transfer-family.updateagreement
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/updatecertificate
+      name: updatecertificate
+      description: REST surface for UpdateCertificate.
+      operations:
+      - method: POST
+        name: updatecertificate
+        description: UpdateCertificate
+        call: amazon-transfer-family.updatecertificate
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/updateconnector
+      name: updateconnector
+      description: REST surface for UpdateConnector.
+      operations:
+      - method: POST
+        name: updateconnector
+        description: UpdateConnector
+        call: amazon-transfer-family.updateconnector
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/updatehostkey
+      name: updatehostkey
+      description: REST surface for UpdateHostKey.
+      operations:
+      - method: POST
+        name: updatehostkey
+        description: UpdateHostKey
+        call: amazon-transfer-family.updatehostkey
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/updateprofile
+      name: updateprofile
+      description: REST surface for UpdateProfile.
+      operations:
+      - method: POST
+        name: updateprofile
+        description: UpdateProfile
+        call: amazon-transfer-family.updateprofile
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/updateserver
+      name: updateserver
+      description: REST surface for UpdateServer.
+      operations:
+      - method: POST
+        name: updateserver
+        description: UpdateServer
+        call: amazon-transfer-family.updateserver
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/updateuser
+      name: updateuser
+      description: REST surface for UpdateUser.
+      operations:
+      - method: POST
+        name: updateuser
+        description: UpdateUser
+        call: amazon-transfer-family.updateuser
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/updatewebapp
+      name: updatewebapp
+      description: REST surface for UpdateWebApp.
+      operations:
+      - method: POST
+        name: updatewebapp
+        description: UpdateWebApp
+        call: amazon-transfer-family.updatewebapp
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/updatewebappcustomization
+      name: updatewebappcustomization
+      description: REST surface for UpdateWebAppCustomization.
+      operations:
+      - method: POST
+        name: updatewebappcustomization
+        description: UpdateWebAppCustomization
+        call: amazon-transfer-family.updatewebappcustomization
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+  - type: mcp
+    namespace: amazon-transfer-family-mcp
+    port: 9090
+    transport: http
+    description: MCP adapter for Amazon Transfer Family. One tool per consumed operation, routed inline through this capability's
+      consumes block.
+    tools:
+    - name: createaccess
+      description: CreateAccess
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.createaccess
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: createagreement
+      description: CreateAgreement
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.createagreement
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: createconnector
+      description: CreateConnector
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.createconnector
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: createprofile
+      description: CreateProfile
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.createprofile
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: createserver
+      description: CreateServer
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.createserver
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: createuser
+      description: CreateUser
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.createuser
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: createwebapp
+      description: CreateWebApp
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.createwebapp
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: createworkflow
+      description: CreateWorkflow
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.createworkflow
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deleteaccess
+      description: DeleteAccess
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.deleteaccess
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deleteagreement
+      description: DeleteAgreement
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.deleteagreement
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deletecertificate
+      description: DeleteCertificate
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.deletecertificate
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deleteconnector
+      description: DeleteConnector
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.deleteconnector
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deletehostkey
+      description: DeleteHostKey
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.deletehostkey
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deleteprofile
+      description: DeleteProfile
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.deleteprofile
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deleteserver
+      description: DeleteServer
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.deleteserver
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deletesshpublickey
+      description: DeleteSshPublicKey
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.deletesshpublickey
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deleteuser
+      description: DeleteUser
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.deleteuser
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deletewebapp
+      description: DeleteWebApp
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.deletewebapp
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deletewebappcustomization
+      description: DeleteWebAppCustomization
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.deletewebappcustomization
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deleteworkflow
+      description: DeleteWorkflow
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.deleteworkflow
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describeaccess
+      description: DescribeAccess
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.describeaccess
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describeagreement
+      description: DescribeAgreement
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.describeagreement
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describecertificate
+      description: DescribeCertificate
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.describecertificate
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describeconnector
+      description: DescribeConnector
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.describeconnector
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describeexecution
+      description: DescribeExecution
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.describeexecution
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describehostkey
+      description: DescribeHostKey
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.describehostkey
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describeprofile
+      description: DescribeProfile
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.describeprofile
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describesecuritypolicy
+      description: DescribeSecurityPolicy
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.describesecuritypolicy
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describeserver
+      description: DescribeServer
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.describeserver
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describeuser
+      description: DescribeUser
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.describeuser
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describewebapp
+      description: DescribeWebApp
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.describewebapp
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describewebappcustomization
+      description: DescribeWebAppCustomization
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.describewebappcustomization
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describeworkflow
+      description: DescribeWorkflow
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.describeworkflow
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: importcertificate
+      description: ImportCertificate
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.importcertificate
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: importhostkey
+      description: ImportHostKey
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.importhostkey
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: importsshpublickey
+      description: ImportSshPublicKey
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.importsshpublickey
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listaccesses
+      description: ListAccesses
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.listaccesses
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listagreements
+      description: ListAgreements
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.listagreements
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listcertificates
+      description: ListCertificates
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.listcertificates
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listconnectors
+      description: ListConnectors
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.listconnectors
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listexecutions
+      description: ListExecutions
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.listexecutions
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listfiletransferresults
+      description: ListFileTransferResults
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.listfiletransferresults
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listhostkeys
+      description: ListHostKeys
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.listhostkeys
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listprofiles
+      description: ListProfiles
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.listprofiles
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listsecuritypolicies
+      description: ListSecurityPolicies
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.listsecuritypolicies
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listservers
+      description: ListServers
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.listservers
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listtagsforresource
+      description: ListTagsForResource
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.listtagsforresource
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listusers
+      description: ListUsers
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.listusers
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listwebapps
+      description: ListWebApps
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.listwebapps
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listworkflows
+      description: ListWorkflows
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.listworkflows
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: sendworkflowstepstate
+      description: SendWorkflowStepState
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.sendworkflowstepstate
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: startdirectorylisting
+      description: StartDirectoryListing
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.startdirectorylisting
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: startfiletransfer
+      description: StartFileTransfer
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.startfiletransfer
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: startremotedelete
+      description: StartRemoteDelete
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.startremotedelete
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: startremotemove
+      description: StartRemoteMove
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.startremotemove
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: startserver
+      description: StartServer
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.startserver
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: stopserver
+      description: StopServer
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.stopserver
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: tagresource
+      description: TagResource
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.tagresource
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: testconnection
+      description: TestConnection
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.testconnection
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: testidentityprovider
+      description: TestIdentityProvider
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.testidentityprovider
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: untagresource
+      description: UntagResource
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.untagresource
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: updateaccess
+      description: UpdateAccess
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.updateaccess
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: updateagreement
+      description: UpdateAgreement
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.updateagreement
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: updatecertificate
+      description: UpdateCertificate
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.updatecertificate
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: updateconnector
+      description: UpdateConnector
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.updateconnector
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: updatehostkey
+      description: UpdateHostKey
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.updatehostkey
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: updateprofile
+      description: UpdateProfile
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.updateprofile
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: updateserver
+      description: UpdateServer
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.updateserver
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: updateuser
+      description: UpdateUser
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.updateuser
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: updatewebapp
+      description: UpdateWebApp
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.updatewebapp
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: updatewebappcustomization
+      description: UpdateWebAppCustomization
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-transfer-family.updatewebappcustomization
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
