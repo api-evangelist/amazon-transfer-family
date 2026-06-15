@@ -1,0 +1,1075 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "CreateAccess",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/CreateAccess",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateAccess"
+    },
+    {
+      "info": {
+        "name": "CreateAgreement",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/CreateAgreement",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateAgreement"
+    },
+    {
+      "info": {
+        "name": "CreateConnector",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/CreateConnector",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateConnector"
+    },
+    {
+      "info": {
+        "name": "CreateProfile",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/CreateProfile",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateProfile"
+    },
+    {
+      "info": {
+        "name": "CreateServer",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/CreateServer",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateServer"
+    },
+    {
+      "info": {
+        "name": "CreateUser",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/CreateUser",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateUser"
+    },
+    {
+      "info": {
+        "name": "CreateWebApp",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/CreateWebApp",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateWebApp"
+    },
+    {
+      "info": {
+        "name": "CreateWorkflow",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/CreateWorkflow",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateWorkflow"
+    },
+    {
+      "info": {
+        "name": "DeleteAccess",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DeleteAccess",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteAccess"
+    },
+    {
+      "info": {
+        "name": "DeleteAgreement",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DeleteAgreement",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteAgreement"
+    },
+    {
+      "info": {
+        "name": "DeleteCertificate",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DeleteCertificate",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteCertificate"
+    },
+    {
+      "info": {
+        "name": "DeleteConnector",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DeleteConnector",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteConnector"
+    },
+    {
+      "info": {
+        "name": "DeleteHostKey",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DeleteHostKey",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteHostKey"
+    },
+    {
+      "info": {
+        "name": "DeleteProfile",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DeleteProfile",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteProfile"
+    },
+    {
+      "info": {
+        "name": "DeleteServer",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DeleteServer",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteServer"
+    },
+    {
+      "info": {
+        "name": "DeleteSshPublicKey",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DeleteSshPublicKey",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteSshPublicKey"
+    },
+    {
+      "info": {
+        "name": "DeleteUser",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DeleteUser",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteUser"
+    },
+    {
+      "info": {
+        "name": "DeleteWebApp",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DeleteWebApp",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteWebApp"
+    },
+    {
+      "info": {
+        "name": "DeleteWebAppCustomization",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DeleteWebAppCustomization",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteWebAppCustomization"
+    },
+    {
+      "info": {
+        "name": "DeleteWorkflow",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DeleteWorkflow",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteWorkflow"
+    },
+    {
+      "info": {
+        "name": "DescribeAccess",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DescribeAccess",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeAccess"
+    },
+    {
+      "info": {
+        "name": "DescribeAgreement",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DescribeAgreement",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeAgreement"
+    },
+    {
+      "info": {
+        "name": "DescribeCertificate",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DescribeCertificate",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeCertificate"
+    },
+    {
+      "info": {
+        "name": "DescribeConnector",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DescribeConnector",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeConnector"
+    },
+    {
+      "info": {
+        "name": "DescribeExecution",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DescribeExecution",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeExecution"
+    },
+    {
+      "info": {
+        "name": "DescribeHostKey",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DescribeHostKey",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeHostKey"
+    },
+    {
+      "info": {
+        "name": "DescribeProfile",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DescribeProfile",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeProfile"
+    },
+    {
+      "info": {
+        "name": "DescribeSecurityPolicy",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DescribeSecurityPolicy",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeSecurityPolicy"
+    },
+    {
+      "info": {
+        "name": "DescribeServer",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DescribeServer",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeServer"
+    },
+    {
+      "info": {
+        "name": "DescribeUser",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DescribeUser",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeUser"
+    },
+    {
+      "info": {
+        "name": "DescribeWebApp",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DescribeWebApp",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeWebApp"
+    },
+    {
+      "info": {
+        "name": "DescribeWebAppCustomization",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DescribeWebAppCustomization",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeWebAppCustomization"
+    },
+    {
+      "info": {
+        "name": "DescribeWorkflow",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/DescribeWorkflow",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeWorkflow"
+    },
+    {
+      "info": {
+        "name": "ImportCertificate",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/ImportCertificate",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ImportCertificate"
+    },
+    {
+      "info": {
+        "name": "ImportHostKey",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/ImportHostKey",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ImportHostKey"
+    },
+    {
+      "info": {
+        "name": "ImportSshPublicKey",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/ImportSshPublicKey",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ImportSshPublicKey"
+    },
+    {
+      "info": {
+        "name": "ListAccesses",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/ListAccesses",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListAccesses"
+    },
+    {
+      "info": {
+        "name": "ListAgreements",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/ListAgreements",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListAgreements"
+    },
+    {
+      "info": {
+        "name": "ListCertificates",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/ListCertificates",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListCertificates"
+    },
+    {
+      "info": {
+        "name": "ListConnectors",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/ListConnectors",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListConnectors"
+    },
+    {
+      "info": {
+        "name": "ListExecutions",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/ListExecutions",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListExecutions"
+    },
+    {
+      "info": {
+        "name": "ListFileTransferResults",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/ListFileTransferResults",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListFileTransferResults"
+    },
+    {
+      "info": {
+        "name": "ListHostKeys",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/ListHostKeys",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListHostKeys"
+    },
+    {
+      "info": {
+        "name": "ListProfiles",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/ListProfiles",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListProfiles"
+    },
+    {
+      "info": {
+        "name": "ListSecurityPolicies",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/ListSecurityPolicies",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListSecurityPolicies"
+    },
+    {
+      "info": {
+        "name": "ListServers",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/ListServers",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListServers"
+    },
+    {
+      "info": {
+        "name": "ListTagsForResource",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/ListTagsForResource",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListTagsForResource"
+    },
+    {
+      "info": {
+        "name": "ListUsers",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/ListUsers",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListUsers"
+    },
+    {
+      "info": {
+        "name": "ListWebApps",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/ListWebApps",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListWebApps"
+    },
+    {
+      "info": {
+        "name": "ListWorkflows",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/ListWorkflows",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListWorkflows"
+    },
+    {
+      "info": {
+        "name": "SendWorkflowStepState",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/SendWorkflowStepState",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "SendWorkflowStepState"
+    },
+    {
+      "info": {
+        "name": "StartDirectoryListing",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/StartDirectoryListing",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "StartDirectoryListing"
+    },
+    {
+      "info": {
+        "name": "StartFileTransfer",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/StartFileTransfer",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "StartFileTransfer"
+    },
+    {
+      "info": {
+        "name": "StartRemoteDelete",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/StartRemoteDelete",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "StartRemoteDelete"
+    },
+    {
+      "info": {
+        "name": "StartRemoteMove",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/StartRemoteMove",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "StartRemoteMove"
+    },
+    {
+      "info": {
+        "name": "StartServer",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/StartServer",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "StartServer"
+    },
+    {
+      "info": {
+        "name": "StopServer",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/StopServer",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "StopServer"
+    },
+    {
+      "info": {
+        "name": "TagResource",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/TagResource",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "TagResource"
+    },
+    {
+      "info": {
+        "name": "TestConnection",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/TestConnection",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "TestConnection"
+    },
+    {
+      "info": {
+        "name": "TestIdentityProvider",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/TestIdentityProvider",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "TestIdentityProvider"
+    },
+    {
+      "info": {
+        "name": "UntagResource",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/UntagResource",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UntagResource"
+    },
+    {
+      "info": {
+        "name": "UpdateAccess",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/UpdateAccess",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateAccess"
+    },
+    {
+      "info": {
+        "name": "UpdateAgreement",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/UpdateAgreement",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateAgreement"
+    },
+    {
+      "info": {
+        "name": "UpdateCertificate",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/UpdateCertificate",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateCertificate"
+    },
+    {
+      "info": {
+        "name": "UpdateConnector",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/UpdateConnector",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateConnector"
+    },
+    {
+      "info": {
+        "name": "UpdateHostKey",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/UpdateHostKey",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateHostKey"
+    },
+    {
+      "info": {
+        "name": "UpdateProfile",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/UpdateProfile",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateProfile"
+    },
+    {
+      "info": {
+        "name": "UpdateServer",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/UpdateServer",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateServer"
+    },
+    {
+      "info": {
+        "name": "UpdateUser",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/UpdateUser",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateUser"
+    },
+    {
+      "info": {
+        "name": "UpdateWebApp",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/UpdateWebApp",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateWebApp"
+    },
+    {
+      "info": {
+        "name": "UpdateWebAppCustomization",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://transfer.amazonaws.com/UpdateWebAppCustomization",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateWebAppCustomization"
+    }
+  ],
+  "bundled": true
+}
