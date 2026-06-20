@@ -5,7 +5,7 @@ description: >-
   services. It supports SFTP, FTPS, and FTP protocols, providing a fully managed file transfer service with native
   integration to Amazon S3 and Amazon EFS.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - AWS
   - File Transfer
