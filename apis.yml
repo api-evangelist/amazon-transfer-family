@@ -42,6 +42,8 @@ apis:
       - type: FAQ
         url: https://aws.amazon.com/aws-transfer-family/faqs/
 common:
+  - type: AgenticAccess
+    url: agentic-access/amazon-transfer-family-agentic-access.yml
   - type: TrustCenter
     url: security/amazon-transfer-family-trust-center.yml
   - type: VulnerabilityDisclosure
