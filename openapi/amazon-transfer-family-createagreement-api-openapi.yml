@@ -1,0 +1,30 @@
+openapi: 3.1.0
+info:
+  title: Amazon Transfer Family CreateAccess CreateAgreement API
+  version: 1.0.0
+  description: Minimal OpenAPI representation of the AWS Transfer Family service API. Operations follow the AWS RPC-over-HTTP convention.
+servers:
+- url: https://transfer.amazonaws.com
+tags:
+- name: CreateAgreement
+paths:
+  /CreateAgreement:
+    post:
+      summary: CreateAgreement
+      operationId: CreateAgreement
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+      tags:
+      - CreateAgreement
+x-generated-from: https://docs.aws.amazon.com/transfer/latest/userguide/
+x-generated-by: claude-crawl-2026-05-08
