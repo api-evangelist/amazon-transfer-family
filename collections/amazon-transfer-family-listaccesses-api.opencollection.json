@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess ListAccesses API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ListAccesses",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ListAccesses",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/ListAccesses",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ListAccesses"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

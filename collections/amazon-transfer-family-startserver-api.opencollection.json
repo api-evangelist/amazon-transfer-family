@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess StartServer API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "StartServer",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "StartServer",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/StartServer",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "StartServer"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

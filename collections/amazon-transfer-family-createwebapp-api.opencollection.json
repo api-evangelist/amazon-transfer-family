@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess CreateWebApp API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "CreateWebApp",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "CreateWebApp",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/CreateWebApp",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "CreateWebApp"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

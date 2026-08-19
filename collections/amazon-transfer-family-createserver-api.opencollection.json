@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess CreateServer API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "CreateServer",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "CreateServer",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/CreateServer",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "CreateServer"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

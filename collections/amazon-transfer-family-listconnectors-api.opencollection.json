@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess ListConnectors API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ListConnectors",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ListConnectors",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/ListConnectors",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ListConnectors"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

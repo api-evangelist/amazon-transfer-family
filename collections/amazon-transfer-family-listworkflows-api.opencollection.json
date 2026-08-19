@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess ListWorkflows API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ListWorkflows",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ListWorkflows",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/ListWorkflows",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ListWorkflows"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

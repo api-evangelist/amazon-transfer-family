@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess DescribeWebAppCustomization API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DescribeWebAppCustomization",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DescribeWebAppCustomization",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/DescribeWebAppCustomization",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DescribeWebAppCustomization"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

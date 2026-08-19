@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess DeleteWebAppCustomization API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DeleteWebAppCustomization",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DeleteWebAppCustomization",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/DeleteWebAppCustomization",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DeleteWebAppCustomization"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

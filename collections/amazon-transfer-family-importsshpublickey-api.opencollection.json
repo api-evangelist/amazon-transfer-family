@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess ImportSshPublicKey API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ImportSshPublicKey",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ImportSshPublicKey",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/ImportSshPublicKey",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ImportSshPublicKey"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

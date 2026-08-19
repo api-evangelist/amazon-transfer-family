@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess StopServer API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "StopServer",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "StopServer",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/StopServer",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "StopServer"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

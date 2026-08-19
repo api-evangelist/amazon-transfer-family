@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess DescribeServer API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DescribeServer",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DescribeServer",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/DescribeServer",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DescribeServer"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess UpdateConnector API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "UpdateConnector",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "UpdateConnector",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/UpdateConnector",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "UpdateConnector"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

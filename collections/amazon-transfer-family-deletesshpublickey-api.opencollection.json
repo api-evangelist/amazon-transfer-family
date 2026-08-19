@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess DeleteSshPublicKey API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DeleteSshPublicKey",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DeleteSshPublicKey",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/DeleteSshPublicKey",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DeleteSshPublicKey"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

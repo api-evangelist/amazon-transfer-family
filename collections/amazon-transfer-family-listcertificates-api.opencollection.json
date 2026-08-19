@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess ListCertificates API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ListCertificates",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ListCertificates",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/ListCertificates",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ListCertificates"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

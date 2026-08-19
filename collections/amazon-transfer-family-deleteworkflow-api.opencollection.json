@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess DeleteWorkflow API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DeleteWorkflow",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DeleteWorkflow",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/DeleteWorkflow",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DeleteWorkflow"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

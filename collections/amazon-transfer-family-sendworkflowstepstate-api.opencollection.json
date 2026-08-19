@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess SendWorkflowStepState API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "SendWorkflowStepState",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "SendWorkflowStepState",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/SendWorkflowStepState",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "SendWorkflowStepState"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

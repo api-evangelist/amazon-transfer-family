@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess DeleteConnector API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DeleteConnector",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DeleteConnector",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/DeleteConnector",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DeleteConnector"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

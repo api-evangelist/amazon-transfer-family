@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess DescribeConnector API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DescribeConnector",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DescribeConnector",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/DescribeConnector",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DescribeConnector"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

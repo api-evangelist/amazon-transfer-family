@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess DescribeAgreement API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DescribeAgreement",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DescribeAgreement",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/DescribeAgreement",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DescribeAgreement"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

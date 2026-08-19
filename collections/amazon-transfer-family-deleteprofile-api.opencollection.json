@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess DeleteProfile API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DeleteProfile",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DeleteProfile",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/DeleteProfile",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DeleteProfile"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

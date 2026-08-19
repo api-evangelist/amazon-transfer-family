@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess DescribeExecution API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DescribeExecution",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DescribeExecution",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/DescribeExecution",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DescribeExecution"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

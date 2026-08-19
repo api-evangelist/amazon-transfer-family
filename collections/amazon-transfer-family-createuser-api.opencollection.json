@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess CreateUser API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "CreateUser",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "CreateUser",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/CreateUser",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "CreateUser"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

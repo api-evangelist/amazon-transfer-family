@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess ListHostKeys API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ListHostKeys",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ListHostKeys",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/ListHostKeys",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ListHostKeys"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

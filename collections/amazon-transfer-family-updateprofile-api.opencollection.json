@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess UpdateProfile API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "UpdateProfile",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "UpdateProfile",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/UpdateProfile",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "UpdateProfile"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

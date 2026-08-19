@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess ImportHostKey API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ImportHostKey",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ImportHostKey",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/ImportHostKey",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ImportHostKey"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess UpdateServer API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "UpdateServer",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "UpdateServer",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/UpdateServer",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "UpdateServer"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

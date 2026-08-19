@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess DescribeSecurityPolicy API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DescribeSecurityPolicy",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DescribeSecurityPolicy",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/DescribeSecurityPolicy",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DescribeSecurityPolicy"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

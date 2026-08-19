@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess ListFileTransferResults API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ListFileTransferResults",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ListFileTransferResults",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/ListFileTransferResults",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ListFileTransferResults"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

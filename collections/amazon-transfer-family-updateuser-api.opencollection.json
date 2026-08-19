@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess UpdateUser API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "UpdateUser",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "UpdateUser",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/UpdateUser",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "UpdateUser"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

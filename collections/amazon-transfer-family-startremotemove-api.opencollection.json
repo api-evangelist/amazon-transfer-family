@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess StartRemoteMove API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "StartRemoteMove",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "StartRemoteMove",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/StartRemoteMove",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "StartRemoteMove"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

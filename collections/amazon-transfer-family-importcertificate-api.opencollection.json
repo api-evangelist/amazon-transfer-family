@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess ImportCertificate API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ImportCertificate",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ImportCertificate",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/ImportCertificate",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ImportCertificate"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

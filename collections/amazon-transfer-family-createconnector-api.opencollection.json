@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess CreateConnector API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "CreateConnector",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "CreateConnector",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/CreateConnector",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "CreateConnector"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

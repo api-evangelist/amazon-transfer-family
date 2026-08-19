@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess ListExecutions API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ListExecutions",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ListExecutions",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/ListExecutions",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ListExecutions"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess DescribeWebApp API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DescribeWebApp",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DescribeWebApp",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/DescribeWebApp",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DescribeWebApp"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

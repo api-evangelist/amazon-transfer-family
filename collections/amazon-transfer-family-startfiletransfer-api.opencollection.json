@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess StartFileTransfer API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "StartFileTransfer",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "StartFileTransfer",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/StartFileTransfer",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "StartFileTransfer"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

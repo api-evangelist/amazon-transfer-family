@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess UpdateWebApp API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "UpdateWebApp",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "UpdateWebApp",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/UpdateWebApp",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "UpdateWebApp"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

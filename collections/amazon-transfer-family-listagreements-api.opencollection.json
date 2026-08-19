@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess ListAgreements API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ListAgreements",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ListAgreements",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/ListAgreements",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ListAgreements"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

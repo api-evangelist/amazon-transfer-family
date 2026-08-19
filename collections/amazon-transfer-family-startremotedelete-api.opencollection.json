@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess StartRemoteDelete API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "StartRemoteDelete",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "StartRemoteDelete",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/StartRemoteDelete",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "StartRemoteDelete"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

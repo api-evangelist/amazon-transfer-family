@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess CreateProfile API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "CreateProfile",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "CreateProfile",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/CreateProfile",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "CreateProfile"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

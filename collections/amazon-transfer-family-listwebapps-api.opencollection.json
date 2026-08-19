@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess ListWebApps API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ListWebApps",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ListWebApps",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/ListWebApps",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ListWebApps"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

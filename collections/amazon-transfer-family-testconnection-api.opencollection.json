@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Transfer Family CreateAccess TestConnection API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "TestConnection",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "TestConnection",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://transfer.amazonaws.com/TestConnection",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "TestConnection"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
