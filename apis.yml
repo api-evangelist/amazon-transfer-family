@@ -504,6 +504,8 @@ apis:
   humanURL: https://aws.amazon.com/aws-transfer-family/
   baseURL: https://transfer.amazonaws.com
   tags:
+  - Describe Connector
+  tags_raw:
   - DescribeConnector
   properties:
   - type: OpenAPI
@@ -955,6 +957,8 @@ apis:
   humanURL: https://aws.amazon.com/aws-transfer-family/
   baseURL: https://transfer.amazonaws.com
   tags:
+  - List Servers
+  tags_raw:
   - ListServers
   properties:
   - type: OpenAPI
@@ -1385,6 +1389,8 @@ apis:
   humanURL: https://aws.amazon.com/aws-transfer-family/
   baseURL: https://transfer.amazonaws.com
   tags:
+  - Update Profile
+  tags_raw:
   - UpdateProfile
   properties:
   - type: OpenAPI
