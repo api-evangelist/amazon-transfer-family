@@ -1,0 +1,45 @@
+slug: amazon-transfer-family
+provider: Amazon Transfer Family
+generated_by: planning/capability-mapping/scripts/classify_capabilities.py
+model: claude-opus-5
+frame:
+- Software & Technology
+min_confidence: 0.7
+capability_model:
+  source: https://github.com/vincentmakes/turbo-ea-capabilities
+  license: CC-BY-4.0
+  attribution: Turbo EA Capabilities by Vincent Verdet — Turbo EA, https://github.com/vincentmakes/turbo-ea-capabilities,
+    CC BY 4.0
+  notice: NOTICE
+edge_count: 3
+edges:
+- tag: CreateServer
+  spec_file: amazon-transfer-family-createserver-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.7
+  evidence: POST /CreateServer; "It supports SFTP, FTPS, and FTP protocols, providing a fully managed
+    file transfer service"
+  reason: Provisions a managed file transfer server endpoint — cloud infrastructure provisioning, an IT
+    Infrastructure Management capability.
+- tag: DeleteServer
+  spec_file: amazon-transfer-family-deleteserver-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.7
+  evidence: POST /DeleteServer — "It supports SFTP, FTPS, and FTP protocols, providing a fully managed
+    file transfer service"
+  reason: The server resource is the managed SFTP/FTPS endpoint itself; creating and deleting it is provisioning
+    of compute/network infrastructure, mapping to IT Infrastructure Management.
+- tag: UpdateServer
+  spec_file: amazon-transfer-family-updateserver-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.7
+  evidence: '''POST /UpdateServer  UpdateServer'' on a ''fully managed file transfer service with native
+    integration to Amazon S3 and Amazon EFS'''
+  reason: Configuring a managed file-transfer server endpoint (SFTP/FTPS/FTP) is cloud infrastructure
+    provisioning/configuration, i.e. IT Infrastructure Management, not a line-of-business capability.

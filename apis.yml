@@ -1499,6 +1499,9 @@ apis:
   - type: FAQ
     url: https://aws.amazon.com/aws-transfer-family/faqs/
 common:
+  - type: CapabilityMap
+    url: capabilities/amazon-transfer-family-capability-edges.yml
+    name: Amazon Transfer Family Business Capability Map
   - type: AgenticAccess
     url: agentic-access/amazon-transfer-family-agentic-access.yml
   - type: TrustCenter
