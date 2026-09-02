@@ -1,6 +1,6 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
-  title: Amazon Transfer Family CreateAccess StartRemoteDelete API
+  title: Amazon Transfer Family CreateAccess Start Remote Delete API
   version: 1.0.0
   description: Minimal OpenAPI representation of the AWS Transfer Family service API. Operations follow the AWS RPC-over-HTTP convention.
 servers:
