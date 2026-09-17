@@ -509,29 +509,6 @@ apis:
     url: https://aws.amazon.com/aws-transfer-family/pricing/
   - type: FAQ
     url: https://aws.amazon.com/aws-transfer-family/faqs/
-- aid: amazon-transfer-family:amazon-transfer-family-describeconnector-api
-  name: Amazon Transfer Family DescribeConnector API
-  description: >-
-    The DescribeConnector API from Amazon Transfer Family — 1 operation(s) for describeconnector.
-  humanURL: https://aws.amazon.com/aws-transfer-family/
-  baseURL: https://transfer.amazonaws.com
-  tags:
-  - Describe Connector
-  tags_raw:
-  - DescribeConnector
-  properties:
-  - type: OpenAPI
-    url: openapi/amazon-transfer-family-describeconnector-api-openapi.yml
-  - type: Documentation
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/
-  - type: APIReference
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/API_Operations.html
-  - type: GettingStarted
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/getting-started.html
-  - type: Pricing
-    url: https://aws.amazon.com/aws-transfer-family/pricing/
-  - type: FAQ
-    url: https://aws.amazon.com/aws-transfer-family/faqs/
 - aid: amazon-transfer-family:amazon-transfer-family-describeexecution-api
   name: Amazon Transfer Family DescribeExecution API
   description: >-
@@ -841,26 +818,6 @@ apis:
     url: https://aws.amazon.com/aws-transfer-family/pricing/
   - type: FAQ
     url: https://aws.amazon.com/aws-transfer-family/faqs/
-- aid: amazon-transfer-family:amazon-transfer-family-listconnectors-api
-  name: Amazon Transfer Family ListConnectors API
-  description: The ListConnectors API from Amazon Transfer Family — 1 operation(s) for listconnectors.
-  humanURL: https://aws.amazon.com/aws-transfer-family/
-  baseURL: https://transfer.amazonaws.com
-  tags:
-  - ListConnectors
-  properties:
-  - type: OpenAPI
-    url: openapi/amazon-transfer-family-listconnectors-api-openapi.yml
-  - type: Documentation
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/
-  - type: APIReference
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/API_Operations.html
-  - type: GettingStarted
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/getting-started.html
-  - type: Pricing
-    url: https://aws.amazon.com/aws-transfer-family/pricing/
-  - type: FAQ
-    url: https://aws.amazon.com/aws-transfer-family/faqs/
 - aid: amazon-transfer-family:amazon-transfer-family-listexecutions-api
   name: Amazon Transfer Family ListExecutions API
   description: The ListExecutions API from Amazon Transfer Family — 1 operation(s) for listexecutions.
@@ -922,26 +879,6 @@ apis:
     url: https://aws.amazon.com/aws-transfer-family/pricing/
   - type: FAQ
     url: https://aws.amazon.com/aws-transfer-family/faqs/
-- aid: amazon-transfer-family:amazon-transfer-family-listprofiles-api
-  name: Amazon Transfer Family ListProfiles API
-  description: The ListProfiles API from Amazon Transfer Family — 1 operation(s) for listprofiles.
-  humanURL: https://aws.amazon.com/aws-transfer-family/
-  baseURL: https://transfer.amazonaws.com
-  tags:
-  - ListProfiles
-  properties:
-  - type: OpenAPI
-    url: openapi/amazon-transfer-family-listprofiles-api-openapi.yml
-  - type: Documentation
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/
-  - type: APIReference
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/API_Operations.html
-  - type: GettingStarted
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/getting-started.html
-  - type: Pricing
-    url: https://aws.amazon.com/aws-transfer-family/pricing/
-  - type: FAQ
-    url: https://aws.amazon.com/aws-transfer-family/faqs/
 - aid: amazon-transfer-family:amazon-transfer-family-listsecuritypolicies-api
   name: Amazon Transfer Family ListSecurityPolicies API
   description: >-
@@ -953,49 +890,6 @@ apis:
   properties:
   - type: OpenAPI
     url: openapi/amazon-transfer-family-listsecuritypolicies-api-openapi.yml
-  - type: Documentation
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/
-  - type: APIReference
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/API_Operations.html
-  - type: GettingStarted
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/getting-started.html
-  - type: Pricing
-    url: https://aws.amazon.com/aws-transfer-family/pricing/
-  - type: FAQ
-    url: https://aws.amazon.com/aws-transfer-family/faqs/
-- aid: amazon-transfer-family:amazon-transfer-family-listservers-api
-  name: Amazon Transfer Family ListServers API
-  description: The ListServers API from Amazon Transfer Family — 1 operation(s) for listservers.
-  humanURL: https://aws.amazon.com/aws-transfer-family/
-  baseURL: https://transfer.amazonaws.com
-  tags:
-  - List Servers
-  tags_raw:
-  - ListServers
-  properties:
-  - type: OpenAPI
-    url: openapi/amazon-transfer-family-listservers-api-openapi.yml
-  - type: Documentation
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/
-  - type: APIReference
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/API_Operations.html
-  - type: GettingStarted
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/getting-started.html
-  - type: Pricing
-    url: https://aws.amazon.com/aws-transfer-family/pricing/
-  - type: FAQ
-    url: https://aws.amazon.com/aws-transfer-family/faqs/
-- aid: amazon-transfer-family:amazon-transfer-family-listtagsforresource-api
-  name: Amazon Transfer Family ListTagsForResource API
-  description: >-
-    The ListTagsForResource API from Amazon Transfer Family — 1 operation(s) for listtagsforresource.
-  humanURL: https://aws.amazon.com/aws-transfer-family/
-  baseURL: https://transfer.amazonaws.com
-  tags:
-  - ListTagsForResource
-  properties:
-  - type: OpenAPI
-    url: openapi/amazon-transfer-family-listtagsforresource-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/transfer/latest/userguide/
   - type: APIReference
@@ -1211,26 +1105,6 @@ apis:
     url: https://aws.amazon.com/aws-transfer-family/pricing/
   - type: FAQ
     url: https://aws.amazon.com/aws-transfer-family/faqs/
-- aid: amazon-transfer-family:amazon-transfer-family-tagresource-api
-  name: Amazon Transfer Family TagResource API
-  description: The TagResource API from Amazon Transfer Family — 1 operation(s) for tagresource.
-  humanURL: https://aws.amazon.com/aws-transfer-family/
-  baseURL: https://transfer.amazonaws.com
-  tags:
-  - TagResource
-  properties:
-  - type: OpenAPI
-    url: openapi/amazon-transfer-family-tagresource-api-openapi.yml
-  - type: Documentation
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/
-  - type: APIReference
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/API_Operations.html
-  - type: GettingStarted
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/getting-started.html
-  - type: Pricing
-    url: https://aws.amazon.com/aws-transfer-family/pricing/
-  - type: FAQ
-    url: https://aws.amazon.com/aws-transfer-family/faqs/
 - aid: amazon-transfer-family:amazon-transfer-family-testconnection-api
   name: Amazon Transfer Family TestConnection API
   description: The TestConnection API from Amazon Transfer Family — 1 operation(s) for testconnection.
@@ -1262,26 +1136,6 @@ apis:
   properties:
   - type: OpenAPI
     url: openapi/amazon-transfer-family-testidentityprovider-api-openapi.yml
-  - type: Documentation
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/
-  - type: APIReference
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/API_Operations.html
-  - type: GettingStarted
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/getting-started.html
-  - type: Pricing
-    url: https://aws.amazon.com/aws-transfer-family/pricing/
-  - type: FAQ
-    url: https://aws.amazon.com/aws-transfer-family/faqs/
-- aid: amazon-transfer-family:amazon-transfer-family-untagresource-api
-  name: Amazon Transfer Family UntagResource API
-  description: The UntagResource API from Amazon Transfer Family — 1 operation(s) for untagresource.
-  humanURL: https://aws.amazon.com/aws-transfer-family/
-  baseURL: https://transfer.amazonaws.com
-  tags:
-  - UntagResource
-  properties:
-  - type: OpenAPI
-    url: openapi/amazon-transfer-family-untagresource-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/transfer/latest/userguide/
   - type: APIReference
@@ -1395,28 +1249,6 @@ apis:
     url: https://aws.amazon.com/aws-transfer-family/pricing/
   - type: FAQ
     url: https://aws.amazon.com/aws-transfer-family/faqs/
-- aid: amazon-transfer-family:amazon-transfer-family-updateprofile-api
-  name: Amazon Transfer Family UpdateProfile API
-  description: The UpdateProfile API from Amazon Transfer Family — 1 operation(s) for updateprofile.
-  humanURL: https://aws.amazon.com/aws-transfer-family/
-  baseURL: https://transfer.amazonaws.com
-  tags:
-  - Update Profile
-  tags_raw:
-  - UpdateProfile
-  properties:
-  - type: OpenAPI
-    url: openapi/amazon-transfer-family-updateprofile-api-openapi.yml
-  - type: Documentation
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/
-  - type: APIReference
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/API_Operations.html
-  - type: GettingStarted
-    url: https://docs.aws.amazon.com/transfer/latest/userguide/getting-started.html
-  - type: Pricing
-    url: https://aws.amazon.com/aws-transfer-family/pricing/
-  - type: FAQ
-    url: https://aws.amazon.com/aws-transfer-family/faqs/
 - aid: amazon-transfer-family:amazon-transfer-family-updateserver-api
   name: Amazon Transfer Family UpdateServer API
   description: The UpdateServer API from Amazon Transfer Family — 1 operation(s) for updateserver.
@@ -1488,6 +1320,169 @@ apis:
   properties:
   - type: OpenAPI
     url: openapi/amazon-transfer-family-updatewebappcustomization-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/API_Operations.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/aws-transfer-family/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/aws-transfer-family/faqs/
+- aid: amazon-transfer-family:amazon-transfer-family-describe-connector-api
+  name: Amazon Transfer Family Describe Connector API
+  description: >-
+    The Describe Connector API from Amazon Transfer Family — 1 operation(s) for describe connector.
+  humanURL: https://aws.amazon.com/aws-transfer-family/
+  baseURL: https://transfer.amazonaws.com
+  tags:
+  - Describe Connector
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-transfer-family-describe-connector-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/API_Operations.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/aws-transfer-family/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/aws-transfer-family/faqs/
+- aid: amazon-transfer-family:amazon-transfer-family-list-connectors-api
+  name: Amazon Transfer Family List Connectors API
+  description: >-
+    The List Connectors API from Amazon Transfer Family — 1 operation(s) for list connectors.
+  humanURL: https://aws.amazon.com/aws-transfer-family/
+  baseURL: https://transfer.amazonaws.com
+  tags:
+  - List Connectors
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-transfer-family-list-connectors-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/API_Operations.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/aws-transfer-family/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/aws-transfer-family/faqs/
+- aid: amazon-transfer-family:amazon-transfer-family-list-profiles-api
+  name: Amazon Transfer Family List Profiles API
+  description: The List Profiles API from Amazon Transfer Family — 1 operation(s) for list profiles.
+  humanURL: https://aws.amazon.com/aws-transfer-family/
+  baseURL: https://transfer.amazonaws.com
+  tags:
+  - List Profiles
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-transfer-family-list-profiles-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/API_Operations.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/aws-transfer-family/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/aws-transfer-family/faqs/
+- aid: amazon-transfer-family:amazon-transfer-family-list-servers-api
+  name: Amazon Transfer Family List Servers API
+  description: The List Servers API from Amazon Transfer Family — 1 operation(s) for list servers.
+  humanURL: https://aws.amazon.com/aws-transfer-family/
+  baseURL: https://transfer.amazonaws.com
+  tags:
+  - List Servers
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-transfer-family-list-servers-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/API_Operations.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/aws-transfer-family/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/aws-transfer-family/faqs/
+- aid: amazon-transfer-family:amazon-transfer-family-list-tags-for-resource-api
+  name: Amazon Transfer Family List Tags For Resource API
+  description: >-
+    The List Tags For Resource API from Amazon Transfer Family — 1 operation(s) for list tags for resource.
+  humanURL: https://aws.amazon.com/aws-transfer-family/
+  baseURL: https://transfer.amazonaws.com
+  tags:
+  - List Tags For Resource
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-transfer-family-list-tags-for-resource-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/API_Operations.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/aws-transfer-family/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/aws-transfer-family/faqs/
+- aid: amazon-transfer-family:amazon-transfer-family-tag-resource-api
+  name: Amazon Transfer Family Tag Resource API
+  description: The Tag Resource API from Amazon Transfer Family — 1 operation(s) for tag resource.
+  humanURL: https://aws.amazon.com/aws-transfer-family/
+  baseURL: https://transfer.amazonaws.com
+  tags:
+  - Tag Resource
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-transfer-family-tag-resource-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/API_Operations.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/aws-transfer-family/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/aws-transfer-family/faqs/
+- aid: amazon-transfer-family:amazon-transfer-family-untag-resource-api
+  name: Amazon Transfer Family Untag Resource API
+  description: The Untag Resource API from Amazon Transfer Family — 1 operation(s) for untag resource.
+  humanURL: https://aws.amazon.com/aws-transfer-family/
+  baseURL: https://transfer.amazonaws.com
+  tags:
+  - Untag Resource
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-transfer-family-untag-resource-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/API_Operations.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/transfer/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/aws-transfer-family/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/aws-transfer-family/faqs/
+- aid: amazon-transfer-family:amazon-transfer-family-update-profile-api
+  name: Amazon Transfer Family Update Profile API
+  description: The Update Profile API from Amazon Transfer Family — 1 operation(s) for update profile.
+  humanURL: https://aws.amazon.com/aws-transfer-family/
+  baseURL: https://transfer.amazonaws.com
+  tags:
+  - Update Profile
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-transfer-family-update-profile-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/transfer/latest/userguide/
   - type: APIReference
