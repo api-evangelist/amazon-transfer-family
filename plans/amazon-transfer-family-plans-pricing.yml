@@ -10,6 +10,10 @@ provenance:
   grounding: every price_text was found verbatim in the fetched page text
 audience: developer-api
 pricing_basis: usage-other
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-09-20'
 published: true
 note: The rate tables render as unresolved template placeholders ({priceOf!...}); the numeric prices captured
   here come from the page's worked pricing examples and footnotes (US East N. Virginia).
