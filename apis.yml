@@ -1496,6 +1496,8 @@ apis:
   - type: FAQ
     url: https://aws.amazon.com/aws-transfer-family/faqs/
 common:
+  - type: Plans
+    url: plans/amazon-transfer-family-plans-pricing.yml
   - type: CapabilityMap
     url: capabilities/amazon-transfer-family-capability-edges.yml
     name: Amazon Transfer Family Business Capability Map
