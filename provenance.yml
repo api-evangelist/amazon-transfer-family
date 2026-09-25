@@ -148,11 +148,11 @@ artifacts:
     method: derived
     evidence: openapi/amazon-transfer-family-describecertificate-api
   collections/amazon-transfer-family-describeconnector-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-transfer-family-describeconnector-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-transfer-family-describeconnector-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-transfer-family-describeconnector-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-transfer-family-describeexecution-api.opencollection.json:
     method: derived
     evidence: openapi/amazon-transfer-family-describeexecution-api
@@ -244,11 +244,11 @@ artifacts:
     method: derived
     evidence: openapi/amazon-transfer-family-listcertificates-api
   collections/amazon-transfer-family-listconnectors-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-transfer-family-listconnectors-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-transfer-family-listconnectors-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-transfer-family-listconnectors-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-transfer-family-listexecutions-api.opencollection.json:
     method: derived
     evidence: openapi/amazon-transfer-family-listexecutions-api
@@ -268,11 +268,11 @@ artifacts:
     method: derived
     evidence: openapi/amazon-transfer-family-listhostkeys-api
   collections/amazon-transfer-family-listprofiles-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-transfer-family-listprofiles-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-transfer-family-listprofiles-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-transfer-family-listprofiles-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-transfer-family-listsecuritypolicies-api.opencollection.json:
     method: derived
     evidence: openapi/amazon-transfer-family-listsecuritypolicies-api
@@ -280,17 +280,17 @@ artifacts:
     method: derived
     evidence: openapi/amazon-transfer-family-listsecuritypolicies-api
   collections/amazon-transfer-family-listservers-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-transfer-family-listservers-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-transfer-family-listservers-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-transfer-family-listservers-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-transfer-family-listtagsforresource-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-transfer-family-listtagsforresource-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-transfer-family-listtagsforresource-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-transfer-family-listtagsforresource-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-transfer-family-listusers-api.opencollection.json:
     method: derived
     evidence: openapi/amazon-transfer-family-listusers-api
@@ -352,11 +352,11 @@ artifacts:
     method: derived
     evidence: openapi/amazon-transfer-family-stopserver-api
   collections/amazon-transfer-family-tagresource-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-transfer-family-tagresource-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-transfer-family-tagresource-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-transfer-family-tagresource-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-transfer-family-testconnection-api.opencollection.json:
     method: derived
     evidence: openapi/amazon-transfer-family-testconnection-api
@@ -370,11 +370,11 @@ artifacts:
     method: derived
     evidence: openapi/amazon-transfer-family-testidentityprovider-api
   collections/amazon-transfer-family-untagresource-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-transfer-family-untagresource-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-transfer-family-untagresource-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-transfer-family-untagresource-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-transfer-family-updateaccess-api.opencollection.json:
     method: derived
     evidence: openapi/amazon-transfer-family-updateaccess-api
@@ -406,11 +406,11 @@ artifacts:
     method: derived
     evidence: openapi/amazon-transfer-family-updatehostkey-api
   collections/amazon-transfer-family-updateprofile-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-transfer-family-updateprofile-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-transfer-family-updateprofile-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-transfer-family-updateprofile-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-transfer-family-updateserver-api.opencollection.json:
     method: derived
     evidence: openapi/amazon-transfer-family-updateserver-api
@@ -447,58 +447,13 @@ artifacts:
   finops/amazon-transfer-family-finops.yml:
     method: generated
     evidence: declared in the artifact
+  front-door-ai/2026-09-17.yml:
+    method: unknown
+    evidence: no authorship recorded
   json-ld/amazon-transfer-family-context.jsonld:
     method: unknown
     evidence: no authorship recorded
-  kin/checks-2026-09-05T072335.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-06T210741.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-07T135032.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-10T093022.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-10T111628.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-11T211707.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-12T193225.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-17T064519.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-19T080027.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-19T082702.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-19T114122.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-20T165047.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-20T191845.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-20T205517.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-21T110057.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-24T064859.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-24T171257.yml:
+  kin/checks-2026-09-24T161608.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
   kin/score-2026-08-25T125852.yml:
@@ -585,6 +540,123 @@ artifacts:
   kin/score-2026-09-05T072335.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-05T144739.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-05T195450.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-05T211839.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-06T011047.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-06T211804.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-06T224210.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-07T200636.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-07T213054.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-08T214843.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-08T232836.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-10T204815.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-10T222408.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-12T062655.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-12T080032.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-12T204651.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-12T221936.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-13T214537.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-14T064754.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-14T210656.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-14T225847.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-15T211329.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-15T230249.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-16T210549.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-16T225339.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-17T211151.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-17T233623.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-18T205255.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-18T231945.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-19T165737.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-19T193153.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-20T205903.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-20T232958.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-21T211425.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-21T233935.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-22T213221.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-23T000603.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-24T064009.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-24T090406.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-24T161608.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
   openapi/amazon-transfer-family-createaccess-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
@@ -645,6 +717,9 @@ artifacts:
   openapi/amazon-transfer-family-deleteworkflow-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
+  openapi/amazon-transfer-family-describe-connector-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
   openapi/amazon-transfer-family-describeaccess-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
@@ -652,9 +727,6 @@ artifacts:
     method: unknown
     evidence: no authorship recorded
   openapi/amazon-transfer-family-describecertificate-api-openapi.yml:
-    method: unknown
-    evidence: no authorship recorded
-  openapi/amazon-transfer-family-describeconnector-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
   openapi/amazon-transfer-family-describeexecution-api-openapi.yml:
@@ -693,6 +765,18 @@ artifacts:
   openapi/amazon-transfer-family-importsshpublickey-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
+  openapi/amazon-transfer-family-list-connectors-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/amazon-transfer-family-list-profiles-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/amazon-transfer-family-list-servers-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/amazon-transfer-family-list-tags-for-resource-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
   openapi/amazon-transfer-family-listaccesses-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
@@ -700,9 +784,6 @@ artifacts:
     method: unknown
     evidence: no authorship recorded
   openapi/amazon-transfer-family-listcertificates-api-openapi.yml:
-    method: unknown
-    evidence: no authorship recorded
-  openapi/amazon-transfer-family-listconnectors-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
   openapi/amazon-transfer-family-listexecutions-api-openapi.yml:
@@ -714,16 +795,7 @@ artifacts:
   openapi/amazon-transfer-family-listhostkeys-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
-  openapi/amazon-transfer-family-listprofiles-api-openapi.yml:
-    method: unknown
-    evidence: no authorship recorded
   openapi/amazon-transfer-family-listsecuritypolicies-api-openapi.yml:
-    method: unknown
-    evidence: no authorship recorded
-  openapi/amazon-transfer-family-listservers-api-openapi.yml:
-    method: unknown
-    evidence: no authorship recorded
-  openapi/amazon-transfer-family-listtagsforresource-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
   openapi/amazon-transfer-family-listusers-api-openapi.yml:
@@ -756,7 +828,7 @@ artifacts:
   openapi/amazon-transfer-family-stopserver-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
-  openapi/amazon-transfer-family-tagresource-api-openapi.yml:
+  openapi/amazon-transfer-family-tag-resource-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
   openapi/amazon-transfer-family-testconnection-api-openapi.yml:
@@ -765,7 +837,10 @@ artifacts:
   openapi/amazon-transfer-family-testidentityprovider-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
-  openapi/amazon-transfer-family-untagresource-api-openapi.yml:
+  openapi/amazon-transfer-family-untag-resource-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/amazon-transfer-family-update-profile-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
   openapi/amazon-transfer-family-updateaccess-api-openapi.yml:
@@ -783,9 +858,6 @@ artifacts:
   openapi/amazon-transfer-family-updatehostkey-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
-  openapi/amazon-transfer-family-updateprofile-api-openapi.yml:
-    method: unknown
-    evidence: no authorship recorded
   openapi/amazon-transfer-family-updateserver-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
@@ -799,8 +871,11 @@ artifacts:
     method: unknown
     evidence: no authorship recorded
   plans/amazon-transfer-family-plans-pricing.yml:
-    method: generated
+    method: searched
     evidence: declared in the artifact
+  plans/amazon-transfer-family-price-estimates.yml:
+    method: unknown
+    evidence: no authorship recorded
   rate-limits/amazon-transfer-family-rate-limits.yml:
     method: generated
     evidence: declared in the artifact
