@@ -1358,8 +1358,6 @@ apis:
   humanURL: https://aws.amazon.com/aws-transfer-family/
   baseURL: https://transfer.amazonaws.com
   tags:
-  - ListConnectors
-  tags_raw:
   - List Connectors
   properties:
   - type: OpenAPI
@@ -1550,5 +1548,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
-x-parent: aws
+x-parent: amazon-web-services
 x-relationship: product
