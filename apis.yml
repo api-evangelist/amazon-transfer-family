@@ -1358,6 +1358,8 @@ apis:
   humanURL: https://aws.amazon.com/aws-transfer-family/
   baseURL: https://transfer.amazonaws.com
   tags:
+  - ListConnectors
+  tags_raw:
   - List Connectors
   properties:
   - type: OpenAPI
