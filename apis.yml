@@ -1494,6 +1494,10 @@ apis:
   - type: FAQ
     url: https://aws.amazon.com/aws-transfer-family/faqs/
 common:
+  - type: RateLimits
+    url: rate-limits/amazon-transfer-family-rate-limits.yml
+  - type: FinOps
+    url: finops/amazon-transfer-family-finops.yml
   - type: Pricing
     url: https://aws.amazon.com/aws-transfer-family/pricing/
   - type: Plans
