@@ -1,15 +1,52 @@
-generated: '2026-07-15'
+generated: '2026-09-23'
 method: generated
-source: openapi/amazon-transfer-family-openapi.yml
+source: openapi/amazon-transfer-family-createaccess-api-openapi.yml, openapi/amazon-transfer-family-createagreement-api-openapi.yml,
+  openapi/amazon-transfer-family-createconnector-api-openapi.yml, openapi/amazon-transfer-family-createprofile-api-openapi.yml,
+  openapi/amazon-transfer-family-createserver-api-openapi.yml, openapi/amazon-transfer-family-createuser-api-openapi.yml,
+  openapi/amazon-transfer-family-createwebapp-api-openapi.yml, openapi/amazon-transfer-family-createworkflow-api-openapi.yml,
+  openapi/amazon-transfer-family-deleteaccess-api-openapi.yml, openapi/amazon-transfer-family-deleteagreement-api-openapi.yml,
+  openapi/amazon-transfer-family-deletecertificate-api-openapi.yml, openapi/amazon-transfer-family-deleteconnector-api-openapi.yml,
+  openapi/amazon-transfer-family-deletehostkey-api-openapi.yml, openapi/amazon-transfer-family-deleteprofile-api-openapi.yml,
+  openapi/amazon-transfer-family-deleteserver-api-openapi.yml, openapi/amazon-transfer-family-deletesshpublickey-api-openapi.yml,
+  openapi/amazon-transfer-family-deleteuser-api-openapi.yml, openapi/amazon-transfer-family-deletewebapp-api-openapi.yml,
+  openapi/amazon-transfer-family-deletewebappcustomization-api-openapi.yml, openapi/amazon-transfer-family-deleteworkflow-api-openapi.yml,
+  openapi/amazon-transfer-family-describe-connector-api-openapi.yml, openapi/amazon-transfer-family-describeaccess-api-openapi.yml,
+  openapi/amazon-transfer-family-describeagreement-api-openapi.yml, openapi/amazon-transfer-family-describecertificate-api-openapi.yml,
+  openapi/amazon-transfer-family-describeexecution-api-openapi.yml, openapi/amazon-transfer-family-describehostkey-api-openapi.yml,
+  openapi/amazon-transfer-family-describeprofile-api-openapi.yml, openapi/amazon-transfer-family-describesecuritypolicy-api-openapi.yml,
+  openapi/amazon-transfer-family-describeserver-api-openapi.yml, openapi/amazon-transfer-family-describeuser-api-openapi.yml,
+  openapi/amazon-transfer-family-describewebapp-api-openapi.yml, openapi/amazon-transfer-family-describewebappcustomization-api-openapi.yml,
+  openapi/amazon-transfer-family-describeworkflow-api-openapi.yml, openapi/amazon-transfer-family-importcertificate-api-openapi.yml,
+  openapi/amazon-transfer-family-importhostkey-api-openapi.yml, openapi/amazon-transfer-family-importsshpublickey-api-openapi.yml,
+  openapi/amazon-transfer-family-list-connectors-api-openapi.yml, openapi/amazon-transfer-family-list-profiles-api-openapi.yml,
+  openapi/amazon-transfer-family-list-servers-api-openapi.yml, openapi/amazon-transfer-family-list-tags-for-resource-api-openapi.yml,
+  openapi/amazon-transfer-family-listaccesses-api-openapi.yml, openapi/amazon-transfer-family-listagreements-api-openapi.yml,
+  openapi/amazon-transfer-family-listcertificates-api-openapi.yml, openapi/amazon-transfer-family-listexecutions-api-openapi.yml,
+  openapi/amazon-transfer-family-listfiletransferresults-api-openapi.yml, openapi/amazon-transfer-family-listhostkeys-api-openapi.yml,
+  openapi/amazon-transfer-family-listsecuritypolicies-api-openapi.yml, openapi/amazon-transfer-family-listusers-api-openapi.yml,
+  openapi/amazon-transfer-family-listwebapps-api-openapi.yml, openapi/amazon-transfer-family-listworkflows-api-openapi.yml,
+  openapi/amazon-transfer-family-sendworkflowstepstate-api-openapi.yml, openapi/amazon-transfer-family-startdirectorylisting-api-openapi.yml,
+  openapi/amazon-transfer-family-startfiletransfer-api-openapi.yml, openapi/amazon-transfer-family-startremotedelete-api-openapi.yml,
+  openapi/amazon-transfer-family-startremotemove-api-openapi.yml, openapi/amazon-transfer-family-startserver-api-openapi.yml,
+  openapi/amazon-transfer-family-stopserver-api-openapi.yml, openapi/amazon-transfer-family-tag-resource-api-openapi.yml,
+  openapi/amazon-transfer-family-testconnection-api-openapi.yml, openapi/amazon-transfer-family-testidentityprovider-api-openapi.yml,
+  openapi/amazon-transfer-family-untag-resource-api-openapi.yml, openapi/amazon-transfer-family-update-profile-api-openapi.yml,
+  openapi/amazon-transfer-family-updateaccess-api-openapi.yml, openapi/amazon-transfer-family-updateagreement-api-openapi.yml,
+  openapi/amazon-transfer-family-updatecertificate-api-openapi.yml, openapi/amazon-transfer-family-updateconnector-api-openapi.yml,
+  openapi/amazon-transfer-family-updatehostkey-api-openapi.yml, openapi/amazon-transfer-family-updateserver-api-openapi.yml,
+  openapi/amazon-transfer-family-updateuser-api-openapi.yml, openapi/amazon-transfer-family-updatewebapp-api-openapi.yml,
+  openapi/amazon-transfer-family-updatewebappcustomization-api-openapi.yml
 description: Recommended x-agentic-access execution contracts, classified heuristically from
   the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind
   audience per deployment. See research/curity/agentic-governance/.
 summary:
   operations: 71
   by_action_class:
-    acting: 71
+    acting: 58
+    connected: 13
   by_consequence:
-    write: 67
+    write: 54
+    read: 13
     physical: 3
     safety-critical: 1
   human_in_the_loop_required: 1
@@ -334,6 +371,22 @@ operations:
       - abnormal
       - high-value
     audit: required
+- path: /DescribeConnector
+  method: post
+  operationId: DescribeConnector
+  x-agentic-access:
+    action-class: acting
+    consequence: write
+    subject: required
+    audience: null
+    token:
+      max-ttl: 900
+    escalation:
+      human-in-the-loop: conditional
+      triggers:
+      - abnormal
+      - high-value
+    audit: required
 - path: /DescribeAccess
   method: post
   operationId: DescribeAccess
@@ -369,22 +422,6 @@ operations:
 - path: /DescribeCertificate
   method: post
   operationId: DescribeCertificate
-  x-agentic-access:
-    action-class: acting
-    consequence: write
-    subject: required
-    audience: null
-    token:
-      max-ttl: 900
-    escalation:
-      human-in-the-loop: conditional
-      triggers:
-      - abnormal
-      - high-value
-    audit: required
-- path: /DescribeConnector
-  method: post
-  operationId: DescribeConnector
   x-agentic-access:
     action-class: acting
     consequence: write
@@ -590,86 +627,86 @@ operations:
       - abnormal
       - high-value
     audit: required
-- path: /ListAccesses
-  method: post
-  operationId: ListAccesses
-  x-agentic-access:
-    action-class: acting
-    consequence: write
-    subject: required
-    audience: null
-    token:
-      max-ttl: 900
-    escalation:
-      human-in-the-loop: conditional
-      triggers:
-      - abnormal
-      - high-value
-    audit: required
-- path: /ListAgreements
-  method: post
-  operationId: ListAgreements
-  x-agentic-access:
-    action-class: acting
-    consequence: write
-    subject: required
-    audience: null
-    token:
-      max-ttl: 900
-    escalation:
-      human-in-the-loop: conditional
-      triggers:
-      - abnormal
-      - high-value
-    audit: required
-- path: /ListCertificates
-  method: post
-  operationId: ListCertificates
-  x-agentic-access:
-    action-class: acting
-    consequence: write
-    subject: required
-    audience: null
-    token:
-      max-ttl: 900
-    escalation:
-      human-in-the-loop: conditional
-      triggers:
-      - abnormal
-      - high-value
-    audit: required
 - path: /ListConnectors
   method: post
   operationId: ListConnectors
   x-agentic-access:
-    action-class: acting
-    consequence: write
-    subject: required
-    audience: null
+    action-class: connected
+    consequence: read
+    subject: optional
     token:
-      max-ttl: 900
-    escalation:
-      human-in-the-loop: conditional
-      triggers:
-      - abnormal
-      - high-value
-    audit: required
+      max-ttl: 3600
+    audit: none
+- path: /ListProfiles
+  method: post
+  operationId: ListProfiles
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /ListServers
+  method: post
+  operationId: ListServers
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /ListTagsForResource
+  method: post
+  operationId: ListTagsForResource
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /ListAccesses
+  method: post
+  operationId: ListAccesses
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /ListAgreements
+  method: post
+  operationId: ListAgreements
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /ListCertificates
+  method: post
+  operationId: ListCertificates
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
 - path: /ListExecutions
   method: post
   operationId: ListExecutions
   x-agentic-access:
-    action-class: acting
-    consequence: write
-    subject: required
-    audience: null
+    action-class: connected
+    consequence: read
+    subject: optional
     token:
-      max-ttl: 900
-    escalation:
-      human-in-the-loop: conditional
-      triggers:
-      - abnormal
-      - high-value
-    audit: required
+      max-ttl: 3600
+    audit: none
 - path: /ListFileTransferResults
   method: post
   operationId: ListFileTransferResults
@@ -692,130 +729,52 @@ operations:
   method: post
   operationId: ListHostKeys
   x-agentic-access:
-    action-class: acting
-    consequence: write
-    subject: required
-    audience: null
+    action-class: connected
+    consequence: read
+    subject: optional
     token:
-      max-ttl: 900
-    escalation:
-      human-in-the-loop: conditional
-      triggers:
-      - abnormal
-      - high-value
-    audit: required
-- path: /ListProfiles
-  method: post
-  operationId: ListProfiles
-  x-agentic-access:
-    action-class: acting
-    consequence: write
-    subject: required
-    audience: null
-    token:
-      max-ttl: 900
-    escalation:
-      human-in-the-loop: conditional
-      triggers:
-      - abnormal
-      - high-value
-    audit: required
+      max-ttl: 3600
+    audit: none
 - path: /ListSecurityPolicies
   method: post
   operationId: ListSecurityPolicies
   x-agentic-access:
-    action-class: acting
-    consequence: write
-    subject: required
-    audience: null
+    action-class: connected
+    consequence: read
+    subject: optional
     token:
-      max-ttl: 900
-    escalation:
-      human-in-the-loop: conditional
-      triggers:
-      - abnormal
-      - high-value
-    audit: required
-- path: /ListServers
-  method: post
-  operationId: ListServers
-  x-agentic-access:
-    action-class: acting
-    consequence: write
-    subject: required
-    audience: null
-    token:
-      max-ttl: 900
-    escalation:
-      human-in-the-loop: conditional
-      triggers:
-      - abnormal
-      - high-value
-    audit: required
-- path: /ListTagsForResource
-  method: post
-  operationId: ListTagsForResource
-  x-agentic-access:
-    action-class: acting
-    consequence: write
-    subject: required
-    audience: null
-    token:
-      max-ttl: 900
-    escalation:
-      human-in-the-loop: conditional
-      triggers:
-      - abnormal
-      - high-value
-    audit: required
+      max-ttl: 3600
+    audit: none
 - path: /ListUsers
   method: post
   operationId: ListUsers
   x-agentic-access:
-    action-class: acting
-    consequence: write
-    subject: required
-    audience: null
+    action-class: connected
+    consequence: read
+    subject: optional
     token:
-      max-ttl: 900
-    escalation:
-      human-in-the-loop: conditional
-      triggers:
-      - abnormal
-      - high-value
-    audit: required
+      max-ttl: 3600
+    audit: none
 - path: /ListWebApps
   method: post
   operationId: ListWebApps
   x-agentic-access:
-    action-class: acting
-    consequence: write
-    subject: required
-    audience: null
+    action-class: connected
+    consequence: read
+    subject: optional
     token:
-      max-ttl: 900
-    escalation:
-      human-in-the-loop: conditional
-      triggers:
-      - abnormal
-      - high-value
-    audit: required
+      max-ttl: 3600
+    audit: none
 - path: /ListWorkflows
   method: post
   operationId: ListWorkflows
   x-agentic-access:
-    action-class: acting
-    consequence: write
-    subject: required
-    audience: null
+    action-class: connected
+    consequence: read
+    subject: optional
     token:
-      max-ttl: 900
-    escalation:
-      human-in-the-loop: conditional
-      triggers:
-      - abnormal
-      - high-value
-    audit: required
+      max-ttl: 3600
+    audit: none
 - path: /SendWorkflowStepState
   method: post
   operationId: SendWorkflowStepState
@@ -996,6 +955,22 @@ operations:
       - abnormal
       - high-value
     audit: required
+- path: /UpdateProfile
+  method: post
+  operationId: UpdateProfile
+  x-agentic-access:
+    action-class: acting
+    consequence: write
+    subject: required
+    audience: null
+    token:
+      max-ttl: 900
+    escalation:
+      human-in-the-loop: conditional
+      triggers:
+      - abnormal
+      - high-value
+    audit: required
 - path: /UpdateAccess
   method: post
   operationId: UpdateAccess
@@ -1063,22 +1038,6 @@ operations:
 - path: /UpdateHostKey
   method: post
   operationId: UpdateHostKey
-  x-agentic-access:
-    action-class: acting
-    consequence: write
-    subject: required
-    audience: null
-    token:
-      max-ttl: 900
-    escalation:
-      human-in-the-loop: conditional
-      triggers:
-      - abnormal
-      - high-value
-    audit: required
-- path: /UpdateProfile
-  method: post
-  operationId: UpdateProfile
   x-agentic-access:
     action-class: acting
     consequence: write

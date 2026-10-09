@@ -80,3 +80,85 @@ plans:
 rate_limit_statements:
 - One Transfer Family web app unit can provide up to 250 unique sessions per 5-minute period.
 - You can choose up to 3 Availability Zones (AZs) for Transfer Family servers.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - hybrid
+  units:
+  - compute
+  - data
+  - message
+  - request
+  plans:
+  - name: SFTP/FTPS/AS2 protocol enabled on server endpoint
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - compute
+    periods:
+    - other
+  - name: SFTP data upload/download
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - data
+    periods:
+    - other
+  - name: PGP Decrypt workflow step
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - data
+    periods:
+    - other
+  - name: SFTP connector call
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - request
+    periods:
+    - other
+  - name: SFTP connector data transfer
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - data
+    periods:
+    - other
+  - name: Web apps
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - compute
+    periods:
+    - other
+  - name: AS2 messages - first 100,000 messages/month
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - message
+    periods:
+    - other
+  - name: AS2 messages - next 900,000 messages/month
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - message
+    periods:
+    - other
+  - name: AS2 over 1,000,000 messages/month
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
