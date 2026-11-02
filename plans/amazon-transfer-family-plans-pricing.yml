@@ -1,0 +1,164 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-09-20'
+method: searched
+source: https://aws.amazon.com/aws-transfer-family/pricing/
+sources:
+- https://aws.amazon.com/aws-transfer-family/pricing/
+provenance:
+  tool: planning/api-economics/harvest_pricing.py
+  run: 20260920T120546
+  grounding: every price_text was found verbatim in the fetched page text
+audience: developer-api
+pricing_basis: usage-other
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-09-20'
+published: true
+note: The rate tables render as unresolved template placeholders ({priceOf!...}); the numeric prices captured
+  here come from the page's worked pricing examples and footnotes (US East N. Virginia).
+plan_count: 9
+currency: USD
+plans:
+- name: SFTP/FTPS/AS2 protocol enabled on server endpoint
+  price_text: $0.30/hour
+  price: 0.3
+  currency: USD
+  period: per-use
+  unit: per hour per protocol
+- name: SFTP data upload/download
+  price_text: $0.04/GB
+  price: 0.04
+  currency: USD
+  period: per-use
+  unit: per GB transferred
+- name: PGP Decrypt workflow step
+  price_text: $0.10/GB
+  price: 0.1
+  currency: USD
+  period: per-use
+  unit: per GB processed
+  overage: Every file processed billed for a minimum of 1MB data processed
+- name: SFTP connector call
+  price_text: $0.001
+  price: 0.001
+  currency: USD
+  period: per-use
+  unit: per connector call
+  included_quota: List sizes up to 1,000 items included in one connector call
+  overage: per call charge of $0.001 for every 1,000 item chunk
+- name: SFTP connector data transfer
+  price_text: $0.40/GB
+  price: 0.4
+  currency: USD
+  period: per-use
+  unit: per GB sent or retrieved
+- name: Web apps
+  price_text: $0.50 hourly rate per 1 unit
+  price: 0.5
+  currency: USD
+  period: per-use
+  unit: per hour per unit
+  included_quota: up to 250 unique sessions per 5-minute period per unit
+- name: AS2 messages - first 100,000 messages/month
+  price_text: $0.01/message
+  price: 0.01
+  currency: USD
+  period: per-use
+  unit: per message
+  included_quota: Message size of up to 50 MB included
+  overage: per message charge at the qualifying tier for every 50MB chunk
+- name: AS2 messages - next 900,000 messages/month
+  price_text: $0.005
+  price: 0.005
+  currency: USD
+  period: per-use
+  unit: per message
+- name: AS2 over 1,000,000 messages/month
+  price_text: contact your AWS account team to discuss special pricing options
+  period: none
+rate_limit_statements:
+- One Transfer Family web app unit can provide up to 250 unique sessions per 5-minute period.
+- You can choose up to 3 Availability Zones (AZs) for Transfer Family servers.
+x-canonical:
+  generated: '2026-11-01'
+  vocabulary: engine/economics/plans-canonical.yml
+  models:
+  - hybrid
+  units:
+  - compute
+  - data
+  - message
+  - request
+  plans:
+  - name: SFTP/FTPS/AS2 protocol enabled on server endpoint
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - compute
+    periods:
+    - other
+  - name: SFTP data upload/download
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - data
+    periods:
+    - other
+  - name: PGP Decrypt workflow step
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - data
+    periods:
+    - other
+  - name: SFTP connector call
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - request
+    periods:
+    - other
+  - name: SFTP connector data transfer
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - data
+    periods:
+    - other
+  - name: Web apps
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - compute
+    periods:
+    - other
+  - name: AS2 messages - first 100,000 messages/month
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - message
+    periods:
+    - other
+  - name: AS2 messages - next 900,000 messages/month
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - message
+    periods:
+    - other
+  - name: AS2 over 1,000,000 messages/month
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
