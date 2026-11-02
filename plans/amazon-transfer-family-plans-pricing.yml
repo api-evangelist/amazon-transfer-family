@@ -81,7 +81,7 @@ rate_limit_statements:
 - One Transfer Family web app unit can provide up to 250 unique sessions per 5-minute period.
 - You can choose up to 3 Availability Zones (AZs) for Transfer Family servers.
 x-canonical:
-  generated: '2026-11-01'
+  generated: '2026-11-02'
   vocabulary: engine/economics/plans-canonical.yml
   models:
   - hybrid
